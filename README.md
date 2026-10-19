@@ -20,6 +20,13 @@ Google's public source at the same commit, same toolchain (clang r510928), same 
 | CPU / GPU frequencies, governors, thermal zones | identical | identical |
 | 3DMark Wild Life Stress (best / lowest / stability, peak temp) | 25 486 / 20 518 / 80.5 %, 51 °C | 25 395 / 20 507 / 80.8 %, 51 °C |
 
+### 3DMark Wild Life Stress Test — stock boot vs this kernel
+| Stock boot.img | boot-sukisu+susfs.img |
+|---|---|
+| <img src="docs/3dmark-stock.png" width="340"> | <img src="docs/3dmark-sukisu-susfs.png" width="340"> |
+
+Same phone, same firmware, back to back: best loop 25 486 vs 25 395, lowest 20 518 vs 20 507, stability 80.5 % vs 80.8 %, peak 51 °C on both — within run-to-run noise.
+
 ## Download (`release/` folder — click the file, then **Download raw**)
 | File | What |
 |---|---|
