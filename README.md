@@ -20,11 +20,11 @@ Google's public source at the same commit, same toolchain (clang r510928), same 
 | CPU / GPU frequencies, governors, thermal zones | identical | identical |
 | 3DMark Wild Life Stress (best / lowest / stability, peak temp) | 25 486 / 20 518 / 80.5 %, 51 °C | 25 395 / 20 507 / 80.8 %, 51 °C |
 
-## Download (Releases)
+## Download (`release/` folder — click the file, then **Download raw**)
 | File | What |
 |---|---|
-| `boot-sukisu+susfs.img` | the kernel — full 96 MB boot image |
-| `SukiSU_v4.2.1_41023-release.apk` | SukiSU Ultra manager matching this kernel (UAPI 6) |
+| [`release/boot-sukisu+susfs.img`](release/boot-sukisu+susfs.img) | the kernel — full 96 MB boot image |
+| [`release/SukiSU_v4.2.1_41023-release.apk`](release/SukiSU_v4.2.1_41023-release.apk) | SukiSU Ultra manager matching this kernel (UAPI 6) |
 
 SHA-256 of each file is in `boot-sukisu+susfs.img.sha256`.
 
